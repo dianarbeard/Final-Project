@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #53c67d;
+    color: rgb(9, 61, 45);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    margin: 0;
+    background: rgb(8, 95, 16);
+    background: linear-gradient(0deg, rgb(209, 29, 59) 0%, rgb(211, 220, 221) 100%);
+    padding: 1rem;
+
+}
+
+/* trbl stands for top right bottom left*/
+
+header h1 {
+    position: absolute;
+    right: 5rem;
+    top: 3rem;
+    font-size: large;
+}
+
+/*Margin: Space outside the box
+Padding: space outside the box
+Measurement: rem relative measurement. in(inches) mm(milimeters) px(pixel)
+*/
+
+h3 {
+    background-color: rgb(62, 133, 92);
+    text-align: center;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+p {
+    size: right;
+    position: center;
+    margin: 2rem;
+    color: midnightblue;
+
+}
+
+main p {
+    font-size: large;
+    margin: 2rem;
+    color: rgb(3, 3, 40);
+    background-color: rgb(154, 32, 32);
+    padding: 3rem;
+}
+
+ul {
+    max-width: 11rem;
+    margin: auto;
+}
+
+.address {
+    color: red;
+    font-style: italic;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.contentImage {
+    border-style: groove;
+    border-color: rgb(10, 75, 32);
+    border-width: 1rem;
+}
+
+.highlight {
+    background-color: aqua;
+}
+
+
+.Bulgaria {
+    margin:100px;
+    width: 300px;
+    height: 300px;
+    border: 0.25rem black solid;
+    position: relative;
+    background-color: white;
+}
+
+
+.green2 {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 100px;
+}
+
+.red2 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
