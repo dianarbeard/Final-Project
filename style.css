@@ -11,7 +11,9 @@ body {
 }
 
 nav {
-    margin: 0;
+    height:4.5rem;
+    width:600rem;
+    margin:0rem;
     background: rgb(8, 95, 16);
     background: linear-gradient(0deg, rgb(209, 29, 59) 0%, rgb(211, 220, 221) 100%);
     padding: 1rem;
@@ -43,17 +45,19 @@ h3 {
 p {
     size: right;
     position: center;
-    margin: 2rem;
-    color: midnightblue;
+    margin: 3rem;
+    padding:2rem;
+    color: rgb(3, 3, 40);
+    background-color: rgb(154, 32, 32);
 
 }
 
 main p {
     font-size: large;
-    margin: 2rem;
+    margin: 3rem;
     color: rgb(3, 3, 40);
     background-color: rgb(154, 32, 32);
-    padding: 3rem;
+    padding: 2rem;
 }
 
 ul {
